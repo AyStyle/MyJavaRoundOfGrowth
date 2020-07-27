@@ -10,3 +10,4 @@ ankang.java8.learn.method 记录“方法引用”学习笔记
 
 ankang.java8.learn.stream 记录“流（Stream）”学习笔记
 
+ankang.java.learn.interfacer 记录“接口”学习笔记
