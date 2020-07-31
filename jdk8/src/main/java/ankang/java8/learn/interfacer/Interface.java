@@ -10,22 +10,17 @@ public interface Interface {
     /**
      * 静态常量
      */
-    public static final String STATIC_VAL = "static val.";
-
-    /**
-     * 成员常量
-     */
-    public final String INSTANCE_VAL = "instance val.";
+    String STATIC_VAL = "static val.";
 
     /**
      * 抽象方法
      */
-    public abstract void abstractMethod();
+    void abstractMethod();
 
     /**
      * 静态方法
      */
-    public static void staticMethod() {
+    static void staticMethod() {
         System.out.println("this is a interface static method.");
     }
 
