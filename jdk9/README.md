@@ -9,3 +9,6 @@ ankang.java9.learn.interfacer 记录“接口新特性”学习笔记
 
 ankang.java9.learn.generic 记录“泛型新特性”学习笔记
 
+ankang.java9.learn.exception 记录“资源处理新特性”学习笔记
+
+ankang.java9.learn.collection 记录“创建不可变集合新特性”学习笔记
