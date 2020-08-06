@@ -13,4 +13,8 @@ ankang.java9.learn.exception 记录“资源处理新特性”学习笔记
 
 ankang.java9.learn.collection 记录“创建不可变集合新特性”学习笔记
 
-ankang.java9.learn.stream 记录“IO流新特性”学习笔记
+ankang.java9.learn.iostream 记录“IO流新特性”学习笔记
+
+ankang.java9.learn.stream 记录“Stream流新特性”学习笔记
+
+ankang.java9.learn.optional 记录“Optional新特性”学习笔记
