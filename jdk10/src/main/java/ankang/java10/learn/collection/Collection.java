@@ -1,4 +1,4 @@
-package ankang.java10.learn.list;
+package ankang.java10.learn.collection;
 
 import java.util.ArrayList;
 import java.util.List;
