@@ -27,7 +27,7 @@ public class BubbleSort {
     private static void sort(int[] ints) {
         // 第一圈控制排序轮数，每轮排序完成一个元素：排序轮数 = 元素个数 - 1
         for (int i = 0 ; i < ints.length - 1 ; i++) {
-            // 第二圈控制比较次数：比较次数 = 元素个数 - 排序完成数（排序轮数） - 1
+            // 第二圈控制比较次数：比较次数 = 元素个数 - 排序完成数（已排序轮数） - 1
             for (int j = 0 ; j < ints.length - i - 1 ; j++) {
                 if (ints[j] > ints[j + 1]) {
                     final int t = ints[j + 1];
