@@ -56,7 +56,7 @@ public class StringLearn {
     /**
      * 将字符串根据\n切分转换为Stream
      */
-    private static void lines(){
+    private static void lines() {
         System.out.println("abc\ndef\nghi\nklm\nnop".lines().count());
     }
 

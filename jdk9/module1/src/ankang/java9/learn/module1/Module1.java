@@ -8,7 +8,7 @@ package ankang.java9.learn.module1;
  */
 public class Module1 {
 
-    public void show(){
+    public void show() {
         System.out.println("this is a module in " + this.getClass().getCanonicalName());
     }
 
