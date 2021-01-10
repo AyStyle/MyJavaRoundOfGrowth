@@ -10,7 +10,7 @@ public class ShellSort extends AbstractSort<Integer> {
     @Override
     protected void sort0(Integer[] elements) {
         // 每次排序的元素的步长
-        for (int i = elements.length / 2 ; i > 0 ; i--) {
+        for (int i = elements.length / 2 ; i > 0 ; i /= 2) {
             // 内层是一个插入排序，步长为i
             // j控制元素位置
             for (int j = i ; j < elements.length ; j += i) {
@@ -25,7 +25,7 @@ public class ShellSort extends AbstractSort<Integer> {
                 }
 
                 // 插入元素
-                elements[k+i] = t;
+                elements[k + i] = t;
             }
         }
 
