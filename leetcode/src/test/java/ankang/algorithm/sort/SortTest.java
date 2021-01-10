@@ -11,7 +11,7 @@ class SortTest {
 
     @ParameterizedTest
     @ValueSource(classes = {BubbleSort.class , SelectionSort.class , InsertionSort.class ,
-            ShellSort.class , MergeSort.class})
+            ShellSort.class , MergeSort.class,QuickSort.class})
     void testSort(Class<Sort<Integer>> cls) throws NoSuchMethodException, IllegalAccessException, InvocationTargetException, InstantiationException {
         final Integer[] elements = {7 , 1 , 4 , 2 , 6 , 8 , 5 , 3 , 9 , 0};
 
